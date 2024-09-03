@@ -1,0 +1,74 @@
+.login-page {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-icon-container {
+  margin-bottom: 20px;
+}
+
+.login-icon {
+  width: 150px; /* 이미지 크기 조정 */
+}
+
+.login-form {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 20px;
+  width: 60%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: lightgray;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.login-form input::placeholder {
+  color: lightgray;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-button, .signup-button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 48%;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: white;
+  color: black;
+}
