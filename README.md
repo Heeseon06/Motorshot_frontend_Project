@@ -46,11 +46,6 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 # 포트폴리오
 
 ![ad232c61dc0742c70f48c5f77114c301-0](https://github.com/user-attachments/assets/dbe6ad9d-3a25-4e81-96e6-eda369a1c3eb)
-
-<details>
-  <summary>펼치기/접기</summary>
-
-<!-- ![ad232c61dc0742c70f48c5f77114c301-0](https://github.com/user-attachments/assets/dbe6ad9d-3a25-4e81-96e6-eda369a1c3eb) -->
 ![ad232c61dc0742c70f48c5f77114c301-1](https://github.com/user-attachments/assets/e61d6d05-e5a2-4581-a84a-edbe791e1b43)
 ![ad232c61dc0742c70f48c5f77114c301-2](https://github.com/user-attachments/assets/e87637dc-0b5f-4565-b3de-95cf838bc008)
 ![ad232c61dc0742c70f48c5f77114c301-3](https://github.com/user-attachments/assets/01a714c8-d4b5-4a71-8623-7b94fd9f9e0a)
@@ -69,8 +64,7 @@ uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ![ad232c61dc0742c70f48c5f77114c301-16](https://github.com/user-attachments/assets/b416d88a-3681-491b-b425-a0e70d87a4fd)
 ![ad232c61dc0742c70f48c5f77114c301-17](https://github.com/user-attachments/assets/a19a76da-ed17-4ee8-a29f-d8d9a06899bd)
 ![ad232c61dc0742c70f48c5f77114c301-18](https://github.com/user-attachments/assets/e7e3f9a4-a50a-41ec-9f8c-954731528404)
- 
- </details>
+
 
 <br>
 
@@ -142,5 +136,6 @@ my-react-app/
 
 
 # 작성자의 기여
-
-
+   * **모델학습:** YOLOv8 기반 모델학습
+   * **프론트엔드 화면 구성:** 사용자 인터페이스의 프론트엔드 화면 구성 
+   * **백엔드:** FastAPI, DB 구성
